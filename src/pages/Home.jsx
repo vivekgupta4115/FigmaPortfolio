@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Component/Button'
-import Photo from '../images/vivek.png'
+import Photo from '../userassect/vivek.jpg'
 import About from '../Component/About'
 import Blog from '../Component/Blog'
 import Contact from '../Component/Contact'
@@ -32,7 +32,7 @@ const Home = () => {
               </div>
 
                 <div className='w-[427px] h-[427px] mt-[100px]'>
-                    <img src={Photo} alt='image' className='rounded-[24px]'/>
+                    <img src={Photo} alt='portfolioImage' className='rounded-[24px]'/>
                 </div>
           
         </div>
@@ -50,11 +50,10 @@ const Home = () => {
             <Portfolio/>
 
             {/* Section 5 */}
-            <Service/>
-            
+            <Service/> 
+
             {/* Section 4 */}
             <Contact/>
-
             
     </div>
   )

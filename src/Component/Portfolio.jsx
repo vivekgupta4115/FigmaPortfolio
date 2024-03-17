@@ -3,9 +3,8 @@ import PortfolioImg1 from '../userassect/Screenshot (269).png'
 import PortfolioImg2 from '../userassect/Screenshot (275).png'
 import PortfolioImg3 from '../userassect/Screenshot (277).png'
 import PortfolioImg4 from '../userassect/Screenshot (274).png'
-import PortfolioImg5 from '../userassect/Screenshot (257).png'
 import PortfolioImg6 from '../userassect/istockphoto-1254993875-1024x1024.jpg'
-import PortfolioImg from '../images/vivek.png'
+
 
   
 const Portfolio = () => {

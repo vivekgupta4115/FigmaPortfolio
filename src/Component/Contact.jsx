@@ -46,12 +46,13 @@ const Contact = () => {
                             name="firstname"
                             id="firstname"
                             placeholder="Enter first name"
-                            className="bg-[#1f2937] mt-3 w-[350px] h-[40px] pl-3"
-                            {...register("firstname", { required: true })}
+                            required
+                            className="bg-[#1f2937] mt-3 w-[350px] h-[40px] pl-3 text-[#f3f4f6]"
+                            {...register("firstname")}
                         />
                         {errors.firstname && (
                             <span className="-mt-1 text-[12px] text-yellow-100">
-                            Please enter your name.
+                              Please enter your name.
                             </span>
                         )}       
                     </div>
@@ -65,9 +66,10 @@ const Contact = () => {
                             id="message"
                             cols="30"
                             rows="7"
+                            required
                             placeholder="Enter your message here"
-                            className="bg-[#1f2937] w-[500px] h-[140px] pl-3 mt2"
-                            {...register("message", { required: true })}
+                            className="bg-[#1f2937] w-[500px] h-[140px] pl-3 mt2 text-[#f3f4f6]"
+                            {...register("message")}
                         />
                         {errors.message && (
                         <span className="-mt-1 text-[12px] text-yellow-100">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/vivek.png'
+import Logo from '../userassect/vivek.jpg'
 import Button from './Button'
 
 
@@ -11,7 +11,7 @@ const About = () => {
           <div className='relative w-[475px] h-[475px] mt-[100px] '>
 
                 <img className='absolute border-[14px] border-yellow-500 w-[490px] h-[490px] rounded-[24px] top-[25px] -left-[35px]'/>   
-                <img src={Logo} alt='imageses' className=' rounded-[24px] absolute'/>  
+                <img src={Logo} alt='logo' className=' rounded-[24px] absolute'/>  
 
             </div>
          

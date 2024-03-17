@@ -40,9 +40,9 @@ const Service = () => {
                         card.map((data, index) => {  
                             return (
                                 <div key={index} className='bg-[#020617] h-[300px] p-[30px] rounded-[12px] flex flex-col justify-center items-center pb-[50px]'>
-                                    <p className='text-[30px] font-[400] leading-[27px] flex justify-center items-center'>{data.icon}</p>
-                                    <h1 className='text-[26px] font-[700] leading-[41px] text-yellow-500 text-center w-[130px] pt-4'>{data.heading}</h1>
-                                    <p className='text-[26px] font-[700] leading-[41px] text-yellow-500 text-center w-[260px]'>{data.heading2}</p>
+                                    <p className='text-[30px] font-[400] leading-[27px] flex justify-center items-center text-yellow-500'>{data.icon}</p>
+                                    <h1 className='text-[26px] font-[700] leading-[41px] text-[#f3f4f6] text-center w-[130px] pt-4'>{data.heading}</h1>
+                                    <p className='text-[26px] font-[700] leading-[41px] text-[#f3f4f6] text-center w-[260px]'>{data.heading2}</p>
                                     <p className='text-[#6b7280] font-[400] text-[16px] leading-[27px] pt-4 pl-[30px]'>{data.description}</p>
                                 </div>
                             )
